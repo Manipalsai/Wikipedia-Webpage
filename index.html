@@ -1,43 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wikipedia Webpage</title>
-  <link rel="stylesheet" href="wiki.css" />
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wikipedia Webpage</title>
+<link rel="stylesheet" href="wiki.css">
 </head>
 <body>
-  <header>
+<header>
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/120px-Wikipedia_Logo_1.0.png"
-      alt="Wikipedia Logo"
-      class="logo"
-    />
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/120px-Wikipedia_Logo_1.0.png"
+    alt="Wikipedia Logo"
+    class="logo">
     <h1>Wikipedia</h1>
-  </header>
+</header>
 
-  <main class="main-content">
+<main class="main-content">
     <input
-      type="text"
-      id="searchBox"
-      placeholder="Type and press Enter to search Wikipedia..."
-      autocomplete="off"
-    />
+    type="text"
+    id="searchBox"
+    placeholder="Type and press Enter to search Wikipedia..."
+    autocomplete="off">
     <ul id="suggestions" class="suggestions-list"></ul>
+    <div id="content"></div>
+</main>
 
-    <div id="content">
-      <p>Start searching for something above!</p>
-    </div>
-  </main>
-
-  <footer>
+<footer>
     <p>
-      Powered by
-      <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia API</a>
+    Powered by
+    <a href="https://www.wikipedia.org" target="_blank" rel="noopener"
+        >Wikipedia API</a>
     </p>
-  </footer>
+</footer>
 
-  <script src="wiki.js"></script>
+<script src="wiki.js"></script>
 </body>
 </html>
