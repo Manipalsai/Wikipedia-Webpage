@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Wikipedia Webpage</title>
   <link rel="stylesheet" href="wiki.css" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" />
 </head>
 <body>
   <header>
@@ -15,6 +16,7 @@
     />
     <h1>Wikipedia</h1>
   </header>
+
   <main class="main-content">
     <input
       type="text"
@@ -23,13 +25,16 @@
       autocomplete="off"
     />
     <ul id="suggestions" class="suggestions-list"></ul>
+
+    <div id="content">
+      <p>Start searching for something above!</p>
+    </div>
   </main>
+
   <footer>
     <p>
       Powered by
-      <a href="https://www.wikipedia.org" target="_blank" rel="noopener"
-        >Wikipedia API</a
-      >
+      <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia API</a>
     </p>
   </footer>
 
