@@ -35,4 +35,6 @@ Wikipedia-Webpage/
 ├── wiki.js 
 └── README.md 
 
-Built By **Segu Manipal Sai**
+## Built By
+
+**Segu Manipal Sai**
